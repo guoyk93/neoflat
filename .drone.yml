@@ -1,0 +1,9 @@
+---
+kind: pipeline
+type: exec
+name: default
+
+steps:
+  - name: Install Packages
+    commands:
+      - npm install --registry https://registry.npm.taobao.org
